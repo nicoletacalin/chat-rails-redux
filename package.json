@@ -1,5 +1,6 @@
 {
   "name": "chat-rails-redux",
+  "homepage": "https://github.com/nicoletacalin/chat-rails-redux",
   "private": true,
   "dependencies": {
     "@babel/preset-react": "^7.13.13",
@@ -9,7 +10,6 @@
     "@rails/webpacker": "5.4.0",
     "babel-plugin-transform-react-remove-prop-types": "^0.4.24",
     "bootstrap": "4.6",
-    "gh-pages": "^3.2.3",
     "jquery": "^3.6.0",
     "popper.js": "^1.16.1",
     "prop-types": "^15.7.2",
@@ -27,6 +27,7 @@
   },
   "version": "0.1.0",
   "devDependencies": {
+    "gh-pages": "^3.2.3",
     "webpack-dev-server": "^3.11.2"
   }
 }
