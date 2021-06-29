@@ -1,6 +1,7 @@
 {
   "name": "chat-rails-redux",
   "homepage": "https://github.com/nicoletacalin/chat-rails-redux",
+  "license": "UNLICENSED",
   "private": true,
   "dependencies": {
     "@babel/preset-react": "^7.13.13",
@@ -29,5 +30,10 @@
   "devDependencies": {
     "gh-pages": "^3.2.3",
     "webpack-dev-server": "^3.11.2"
+  },
+  "scripts": {
+    "start": "webpack-dev-server --mode development",
+    "lint": "eslint './src/**/*.js' './src/**/*.jsx'",
+    "deploy": "webpack -p && gh-pages -d dist"
   }
 }
